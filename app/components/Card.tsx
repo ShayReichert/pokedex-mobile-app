@@ -9,6 +9,7 @@ export default function Card({ style, ...rest }: Props) {
 
   return <View style={[style, styles, { backgroundColor: colors.grayWhite }]} {...rest} />;
 }
+
 const styles = {
   borderRadius: 8,
   ...Shadows.dp2,
